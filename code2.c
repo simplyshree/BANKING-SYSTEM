@@ -92,6 +92,7 @@ if(opt ==2){
                 printf("\nPress 3 for cash withdrawl");
                 printf("\nPress 4 for online transfer");
                 printf("\nPress 5 for password change\n");
+                printf("Press 6 to exit the program");
                 printf("\nYour Choice:");
                 scanf(" %d",&choice);
 
@@ -192,6 +193,11 @@ if(opt ==2){
                     }
                     fclose(fp);
                     break;
+
+
+                case 6:
+                printf("Thank you for your choosing us for your banking experience");
+                return 0;
 
 
                 }
